@@ -1,0 +1,43 @@
+.app-background{
+    background-color: rgb(116, 138, 171);
+    display: flex;
+    height:100vh;
+    overflow: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.products-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.loader-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-head{
+    color:black}
+
+.filter{
+    display: flex;
+    flex-direction:column;
+    
+.filter-item{
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+}
+}
+.fail-img{
+    height:50vh;
+    margin-top: 10vh;
+    margin-left: 30vw;
+}
